@@ -253,7 +253,7 @@ const DesktopNavigation = ({ phoneNumber }) => {
     { name: 'HOME VISIT', link: '/shows' },
     {
       name: 'THE MEN',
-      link: '/the-men',
+      link: '#',
       submenu: [
         { name: 'MALE STRIPPERS', link: '/male-strippers' },
         { name: 'TOPLESS WAITER', link: '/topless-waiters' },
@@ -261,9 +261,9 @@ const DesktopNavigation = ({ phoneNumber }) => {
     },
     {
       name: 'STAGE SHOW',
-      link: '/stage-show',
+      link: '#',
       submenu: [
-        { name: 'Show Details', link: '/show-details' },
+        { name: 'Our strip club', link: '/shows/male-strip-clubs' },
         { name: 'Performance Schedule', link: '/schedule' },
         { name: 'VIP Packages', link: '/vip-packages' },
       ],
@@ -311,13 +311,14 @@ const DesktopNavigation = ({ phoneNumber }) => {
 
                 {/* Dropdown Submenu */}
                 {item.submenu && activeSubmenu === item.name && (
-                  <div className="absolute top-full left-0 mt-1 w-48 bg-black rounded shadow-lg z-50 py-1 border border-rose-800">
+                  <div className="absolute p-3 top-full left-0 mt-1 w-48 text-center bg-black rounded shadow-lg z-50 border border-purple-500 transition-colors">
                     {item.submenu.map((subItem, subIndex) => (
                       <a
                         key={subIndex}
                         href={subItem.link}
-                        className="block px-4 py-2 text-sm text-white  font-semibold uppercase border-b border-white hover:text-yellow-400">
+                        className="block text-center px-4 py-2 text-sm text-white  font-semibold uppercase  hover:text-yellow-400">
                         {subItem.name}
+                        <hr className="" />
                       </a>
                     ))}
                   </div>

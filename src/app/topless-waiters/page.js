@@ -272,7 +272,7 @@ You may want your stripper to adapt to your party theme. Dress him up in costume
   },
 ];
 
-export default function MaleStrippersPage() {
+export default function ToplessWaitersPage() {
   return (
     <div>
       <MagicMenLayout height="h-[50vh]">
@@ -280,15 +280,29 @@ export default function MaleStrippersPage() {
       </MagicMenLayout>
       <main className="bg-black pt-24">
         <div className="justify-center text-base text-slate-100 items-center p-3 flex flex-col">
-          <CustomH1 text={'Male Strippers'} />
-          <div className="md:w-1/2 w-full my-6">
-            <VideoCard videoUrl={'https://youtu.be/uYpw0YXw9fA'} />
+          <CustomH1 text={'Hire Male Topless Waiters'} />
+          <div className=" w-full my-6">
+            {/* <VideoCard videoUrl={'https://youtu.be/uYpw0YXw9fA'} /> */}
           </div>
+          <VimeoPlayer />
+
+          <section className="flex flex-col text-center px-2 md:px-11 py-6">
+            <h1 className="uppercase text-xl  text-center mb-4 font-roboto font-bold">
+              The muscles you see are the muscles you get.
+            </h1>
+            <div className="grid grid-cols-2 gap-y-6 md:grid-cols-3 lg:grid-cols-4">
+              {performerData.map((performer) => {
+                return (
+                  <PerformerCard
+                    key={performer.id}
+                    performer={performer}
+                  />
+                );
+              })}
+            </div>
+          </section>
           <h2 className="text-xl md:text-3xl text-center md:w-4/5 w-full">
-            HIRE US for your next party and see for yourself why we’re voted
-            <b className="text-yellow-500">
-              “Australia’s No.1 Strip Entertainment!”
-            </b>
+            <b className="text-yellow-500">Eye-candy heaven!</b>
           </h2>
 
           <div className="flex flex-col items-center p-2 justify-center gap-4">
@@ -300,102 +314,43 @@ export default function MaleStrippersPage() {
               />
             </div>
             <p className="w-full md:w-4/5 leading-7 text-center">
-              Imagine glistening muscles and heart-stopping smiles. Our Male
-              Strippers Melbourne will captivate your attention and have every
-              heart racing. But it’s not just about hot looks. You want male
-              strippers who have plenty of spunk and personality, along with
-              slick dance moves to match! That’s the added magic of Magic Men.
-              Our guys travel anywhere in Melbourne, so if you have a party that
-              is a bit further out, make sure you enquire as early as possible
-              to avoid last min disappointments.
+              Have your drinks and food served with a side of eye-candy by
+              Melbourne’s hottest topless waiters at your next party! Why hire
+              waiters fully clothed when you can have magic men flex their
+              muscles while pouring your favorite glass of bubbles or mixing a
+              deliciously tempting cocktail? You’ll be able to take photos with
+              our Magic Men and talk the night away as they keep all your guests
+              entertained with their looks and charm. Want to see what else out
+              hunky topless waiters can do? Click Here
             </p>
           </div>
         </div>
         {/* Grid component */}
 
-        <section className="flex flex-col px-2 md:px-11 py-6">
-          <div className="grid grid-cols-2 gap-y-6 md:grid-cols-3 lg:grid-cols-4">
-            {performerData.map((performer) => {
-              return (
-                <PerformerCard
-                  key={performer.id}
-                  performer={performer}
-                />
-              );
-            })}
-          </div>
-        </section>
-
         {/* Text content */}
         <section className="text-white p-2 flex justify-center items-center flex-col text-center">
           <div className="w-full md:w-4/5 space-y-6 py-11">
-            <h1 className="uppercase text-xl md:text-3xl text-center mb-4 font-roboto font-bold">
-              The Essential Male Stripping Experience
+            <h1 className="uppercase text-xl  text-center mb-4 font-roboto font-bold">
+              Eye-Candy Heaven!
             </h1>
             <p className="leading-7">
-              When you book one of our male strippers for a night, you get
-              exactly what you asked for. Gorgeous men turn up at your door or
-              at the hotel room, dressed to impress and ready to put on the
-              moves. Book a single stripper for a partial or full strip show, or
-              book two strippers and get double the trouble. The performance is
-              everything you ever dreamed it would be, starting with a dance,
-              then moving on to the stripping. And of course, no strip show
-              would be complete without a lapdance!
-            </p>
-            <p className="leading-7">
-              All our routines are choreographed from the moment our strippers
-              walk in the door to getting photos with the guys. This way you get
-              the complete experience from start to finish, with nothing left
-              untouched. Whatever you’re into, there’s one thing you can be sure
-              of. Our strippers will deliver a night you’ll never forget!
-            </p>
-          </div>
-
-          <div className="w-full md:w-4/5 space-y-6 py-11">
-            <h1 className="uppercase text-xl md:text-3xl text-center mb-4 font-roboto font-bold">
-              We aim to please
-            </h1>
-            <p className="leading-7">
-              When hiring a male stripper in MELBOURNE for your private parties,
-              Magic Men will give you only the best. With only the hottest male
-              strippers in Melbourne, we guarantee an exciting event and get a
-              STRIP SHOW that delivers the thrill of a lifetime.
-            </p>
-            <p className="leading-7">
-              When it comes to hot and sexy celebrations, we’ve got what you
-              want. We know what kind of guys you’re craving – heavenly looks
-              and incredible moves, all wrapped up in a performance that will
-              have you SWEATING.
-            </p>
-            <p className="leading-7">
-              Our male strippers are the whole package. Check out dashing
-              firemen, irresistible POLICE officers, or buff, long-haired
-              tradies. Whatever you and your bride are into, we promise our guys
-              and the show will rock your world.
+              Each of the Magic Men has a unique style and look, so check out
+              their profiles to see even more photos. We guarantee that when you
+              hire topless waiters from us, there are no surprises – the guy you
+              see is the guy you’ll get! Check out the Extras and FAQs for full
+              details of Magic Men’s male topless waiter hire services and
+              packages. The guys are available for bookings as short as two
+              hours, up to all night long! If you don’t have a venue for your
+              event, don’t worry- we offer a range of options for stunning
+              private function rooms in some of Melbourne’s favourite bars and
+              clubs. Topless waiter hire (for Melbourne events) can be booked
+              online – just submit an enquiry via the form, and we will get back
+              to you as soon as possible.
             </p>
           </div>
         </section>
 
         <ShowFaq />
-
-        <div className="text-white w-full  space-y-2 md:w-4/5 text-center flex flex-col justify-center mx-auto items-center">
-          <h1 className="text-xl md:text-3xl text-center font-bold">
-            Get Your Dream Stripper.{' '}
-            <b className="text-yellow-500">Book Now!</b>
-          </h1>
-          <p className="text-center text-sm">
-            Get Your Dream Stripper. Book Now! Reach us through phone, email, or
-            chat, and we’ll be happy to answer your queries. Make your move now,
-            our Melbourne strippers are waiting for you. Do not miss the chance
-            of getting your dream stripper booked for your party. Book our male
-            strippers early now!
-          </p>
-          <a
-            className="bg-rose-400 w-40 hover:bg-rose-700 text-white rounded-full p-2"
-            href="tel:1234567890">
-            Call Now
-          </a>
-        </div>
       </main>
       <Footer></Footer>
     </div>
@@ -413,3 +368,19 @@ function ShowFaq() {
     </div>
   );
 }
+
+const VimeoPlayer = ({ videoId = '896078977' }) => {
+  return (
+    <div className="relative w-full pt-[56.25%]">
+      {' '}
+      {/* 16:9 Aspect Ratio */}
+      <iframe
+        src={`https://player.vimeo.com/video/${videoId}?autoplay=0&title=0&byline=1&portrait=5`}
+        className="absolute top-0 left-0 w-full h-full"
+        frameBorder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowFullScreen
+        title="Vimeo Video Player"></iframe>
+    </div>
+  );
+};

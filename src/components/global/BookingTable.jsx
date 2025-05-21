@@ -116,7 +116,7 @@ export default function ServiceTable() {
             {services.map((service) => (
               <tr
                 key={service.id}
-                className="border-t border-gray-600 text-black">
+                className="border-t border-gray-600  text-black">
                 <td className="p-4 border-r border-gray-700">
                   <div className="flex items-center gap-2">
                     <span className="text-xs text-yellow-500">
@@ -167,7 +167,7 @@ export default function ServiceTable() {
             key={service.id}
             className="mb-4 bg-gray-900 text-white rounded-lg overflow-hidden">
             <div className="p-4 flex items-center gap-2 border-b border-gray-700">
-              <span className="text-xl">{service.icon}</span>
+              <span className="text-xl">{<service.icon />}</span>
               <span className="font-medium">{service.name}</span>
             </div>
             <div className="p-4 space-y-3">

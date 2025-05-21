@@ -23,27 +23,27 @@ const PerformerCarousel = () => {
     },
     {
       id: 2,
-      name: 'David Knight',
+      name: 'ash Summer',
       bgColor: 'bg-yellow-500',
       role: '',
-      image: '/images/Mathew1.jpg',
+      image: '/images/ash.webp',
       height: '5`11',
     },
     {
       id: 3,
-      name: 'Will Parfitt',
+      name: 'Will Partrick',
       bgColor: 'bg-white',
       role: 'Hottest Male Performer',
-      image: '/images/Mathew1.jpg',
-      height: '5`11',
+      image: '/images/Patrick-.jpg',
+      height: '7`',
     },
     {
       id: 4,
       name: 'Jaxon',
       bgColor: 'bg-blue-900',
       role: '',
-      image: '/images/Mathew1.jpg',
-      height: '5`11',
+      image: '/images/jaxon.webp',
+      height: '6`',
     },
     {
       id: 5,
@@ -51,6 +51,46 @@ const PerformerCarousel = () => {
       bgColor: 'bg-purple-500',
       role: '',
       image: '/images/Mathew1.jpg',
+      height: '6`1',
+    },
+    {
+      id: 6,
+      name: 'Blake',
+      bgColor: 'bg-purple-500',
+      role: '',
+      image: '/images/Blake.jpg',
+      height: '6`11',
+    },
+    {
+      id: 7,
+      name: 'Marco',
+      bgColor: 'bg-purple-500',
+      role: '',
+      image: '/images/marco.jpg',
+      height: '5`11',
+    },
+    {
+      id: 8,
+      name: 'Eli',
+      bgColor: 'bg-purple-500',
+      role: '',
+      image: '/images/ELI.jpg',
+      height: '5`11',
+    },
+    {
+      id: 9,
+      name: 'Francesco',
+      bgColor: 'bg-purple-500',
+      role: '',
+      image: '/images/Francesco.jpg',
+      height: '5`11',
+    },
+    {
+      id: 10,
+      name: 'Dave',
+      bgColor: 'bg-purple-500',
+      role: '',
+      image: '/images/Dave-2.jpg',
       height: '5`11',
     },
   ];
@@ -230,7 +270,7 @@ export function PerformerCard({ performer }) {
 
   return (
     <div className="w-full px-3">
-      <div className="relative rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105 h-96">
+      <div className="relative  overflow-hidden shadow-lg transform transition-transform hover:scale-105 h-96">
         {/* Image */}
         <img
           src={image}
@@ -243,24 +283,24 @@ export function PerformerCard({ performer }) {
           className="absolute inset-0"
           style={{
             background:
-              'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%)',
+              'linear-gradient(to top, rgba(0,0,0,0.99) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0) 100%)',
           }}></div>
 
         {/* Content */}
-        <div className="absolute inset-0 flex flex-col justify-end text-center p-4">
+        <div className="absolute inset-0 flex flex-col justify-end text-center ">
           <h3 className="text-xl font-bold text-amber-300 mb-2">{name}</h3>
 
           <button className="mx-auto mt-2 px-6 py-2 mb-4 border-2 hover:border-none border-purple-500 text-white font-semibold rounded-full hover:bg-white shadow-sm hover:text-slate-900 transition duration-300">
             VIEW MORE
           </button>
 
-          <div className="text-gray-200 px-2">
-            <hr className="border-gray-500" />
-            <span className="flex justify-between py-2 items-center">
+          <div className="text-gray-200 ">
+            <hr className="border-gray-700" />
+            <span className="flex justify-between px-2 py-2 items-center">
               <p className="text-amber-300">Height</p>
               <p className="font-bold">{height}</p>
             </span>
-            <hr className="border-gray-500" />
+            <hr className="border-gray-700" />
           </div>
         </div>
       </div>
