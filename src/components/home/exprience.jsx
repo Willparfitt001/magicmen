@@ -1,53 +1,53 @@
-"use client";
-import { FaRegStar } from "react-icons/fa6";
-import { IoMdStar } from "react-icons/io";
+'use client';
+import { FaRegStar } from 'react-icons/fa6';
+import { IoMdStar } from 'react-icons/io';
 
 const list_one = [
   {
-    label: "Hens night Melbourne",
-    link: "/",
+    label: 'Hens night Melbourne',
+    link: '/',
   },
   {
-    label: "Girls night out",
-    link: "",
+    label: 'Girls night out',
+    link: '',
   },
   {
-    label: "Bucks night",
-    link: "",
+    label: 'Bucks night',
+    link: '',
   },
   {
-    label: "Baby shower",
-    link: "",
+    label: 'Baby shower',
+    link: '',
   },
   {
-    label: "Life drawing",
-    link: "",
+    label: 'Life drawing',
+    link: '',
   },
 ];
 const list_two = [
   {
-    label: "Hens night party",
-    link: "/",
+    label: 'Hens night party',
+    link: '/',
   },
   {
-    label: "Birthday Parties",
-    link: "",
+    label: 'Birthday Parties',
+    link: '',
   },
   {
-    label: "Ladies’ night",
-    link: "",
+    label: 'Ladies’ night',
+    link: '',
   },
   {
-    label: "Product launch and expos",
-    link: "",
+    label: 'Product launch and expos',
+    link: '',
   },
 ];
 
-export default function Experience({ location = "" }) {
+export default function Experience({ location = '' }) {
   return (
     <div className="text-white my-11 p-6 md:w-4/5 mx-auto w-full">
       <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center">
-        <h1 className="font-alex-brush text-4xl md:text-8xl">
+        <h1 className="font-alex-brush text-xl md:text-4xl">
           Magic Men {location}
         </h1>
         <p className="text-yellow-500/90">Experience</p>
@@ -55,20 +55,20 @@ export default function Experience({ location = "" }) {
 
       <div className="items-stretch flex md:flex-row flex-col gap-11">
         {/*Image side*/}
-        <div className="flex flex-row   w-24 md:w-72 mt-4 md:flex-col gap-2">
+        <div className="flex flex-row items-stretch justify-center mx-auto text-center p-2  w-24 md:w-72 mt-4 md:flex-col gap-2">
           <img
             src={
-              "https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6f9d852/www.magicmen.com.au/wp-content/uploads/logo-0011-300x224.png"
+              'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-4112ae0/www.magicmen.com.au/wp-content/uploads/logo-0011-300x224.png'
             }
           />
           <img
             src={
-              "https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6f9d852/www.magicmen.com.au/wp-content/uploads/award00002.jpg"
+              'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-4112ae0/www.magicmen.com.au/wp-content/uploads/award00002.jpg'
             }
           />
           <img
             src={
-              "https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6f9d852/www.magicmen.com.au/wp-content/uploads/award00003.jpg"
+              'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-4112ae0/www.magicmen.com.au/wp-content/uploads/award00003.jpg'
             }
           />
         </div>
@@ -100,12 +100,22 @@ export default function Experience({ location = "" }) {
           <ul className="flex flex-wrap items-center gap-4 md:gap-11">
             <div>
               {list_one.map((d, i) => {
-                return <List list={d} key={i} />;
+                return (
+                  <List
+                    list={d}
+                    key={i}
+                  />
+                );
               })}
             </div>
             <div>
               {list_two.map((d, i) => {
-                return <List list={d} key={i} />;
+                return (
+                  <List
+                    list={d}
+                    key={i}
+                  />
+                );
               })}
             </div>
           </ul>
@@ -128,7 +138,10 @@ function List({ list }) {
   return (
     <li className="flex items-center gap-2 uppercase text-lg font-bold">
       <span>
-        <IoMdStar className="text-fuchsia-600 " size={11} />
+        <IoMdStar
+          className="text-fuchsia-600 "
+          size={11}
+        />
       </span>
       <a href={list?.link}>{list?.label}</a>
     </li>

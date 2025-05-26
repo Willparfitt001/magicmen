@@ -1,18 +1,18 @@
 const card_data = [
   {
-    img: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6f9d852/www.magicmen.com.au/wp-content/uploads/DSC09124-400x290.jpg`,
-    label: "19th Feb Melb",
-    link: "/",
+    img: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-4112ae0/www.magicmen.com.au/wp-content/uploads/DSC09124-400x290.jpg`,
+    label: '19th Feb Melb',
+    link: '/19th-feb-melb',
   },
   {
-    img: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6f9d852/www.magicmen.com.au/wp-content/uploads/DSC08760-400x290.jpg`,
-    label: "12th Feb Melb",
-    link: "/",
+    img: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-4112ae0/www.magicmen.com.au/wp-content/uploads/DSC08760-400x290.jpg`,
+    label: '12th Feb Melb',
+    link: '/12th-feb-melb',
   },
   {
-    img: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6f9d852/www.magicmen.com.au/wp-content/uploads/DSC8990-400x290.jpg`,
-    label: "5th Feb Melb",
-    link: "/",
+    img: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-4112ae0/www.magicmen.com.au/wp-content/uploads/DSC8990-400x290.jpg`,
+    label: '5th Feb Melb',
+    link: '/5th-feb-melb',
   },
 ];
 
@@ -26,15 +26,19 @@ export default function HomeGallary() {
       <span className="flex justify-center">
         <a
           className="flex w-fit items-center justify-center uppercase font-bold bg-fuchsia-600 text-white py-2 px-4 rounded-full hover:bg-fuchsia-800 transition-colors"
-          href="hens"
-        >
+          href="/latest-gallary">
           Check our Show Gallaries
         </a>
       </span>
 
       <div className="grid grid-cols-1 md:grid-cols-3 px-2 md:px-11 py-4 my-6 gap-4">
         {card_data.map((d, i) => {
-          return <Card data={d} key={i} />;
+          return (
+            <Card
+              data={d}
+              key={i}
+            />
+          );
         })}
       </div>
     </div>
@@ -44,7 +48,10 @@ export default function HomeGallary() {
 function Card({ data }) {
   return (
     <a href={data?.link}>
-      <img src={data?.img} className="border border-yellow-600" />
+      <img
+        src={data?.img}
+        className="border border-yellow-600"
+      />
       <p className="p-4 text-center capitalize font-bold">{data?.label}</p>
     </a>
   );

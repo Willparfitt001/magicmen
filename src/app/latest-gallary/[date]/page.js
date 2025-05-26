@@ -81,7 +81,7 @@ export default function GalleryPage() {
 
   return (
     <div className="text-white min-h-screen bg-black">
-      <MagicMenLayout height="h-[50vh]">
+      <MagicMenLayout height="h-[35vh]">
         <GeneralHeroSection />
       </MagicMenLayout>
 

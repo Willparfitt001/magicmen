@@ -6,141 +6,84 @@ import GeneralHeroSection from '@/components/home/GeneralHeroSection';
 export default function Page() {
   const faqData = [
     {
-      id: 1,
-      question:
-        'WILL THE STRIPPER I BOOK FROM THE SITE LOOK THE SAME IN REAL LIFE?',
-      answer:
-        'YES! At Magic Men we pride ourselves on being able to offer you the best of the best! All photos are updated regularly, so you are ensured satisfaction with your booking.',
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/Expectations.jpg',
-      expectationsLabel: 'EXPECTATIONS',
-      realityLabel: 'REALITY',
+      id: '#12',
+      question: `Does our hen or birthday girl get to go up on stage?
+`,
+      answer: `If you’ve booked your hens night, birthday, or girls’ night in advance and we know it’s a special event, you can be sure the guest of honor is up for a night to remember. We’ll bring them up on stage at some point throughout the show to experience the magic first-hand.
+
+We also have optional private shows available to add to your booking for a flat fee of $350 (VIC) or $380 (NSW & QLD). These are held in a separate area with just your group and the man of your choice. They’re great for making your night just a little more special.`,
     },
     {
       id: 2,
-      question: 'HOW LONG DO THE SHOWS GO FOR?',
-      answer: `A. Depending on the type of show that is requested, generally our Magic Men have their own style of show and the length will vary from performer to performer.
-
-G-String and Raunchy Nude Show 15-20 min
-Desert Fantasy Special 20 min
-Double Trouble 30-45min`,
+      question: `Can you just rock up and buy tickets at the door?
+magic men`,
+      answer: ` 
+ Just like buying tickets to see a popular movie at the cinemas; making a reservation and pre- booking is strongly recommended as Magic Men usually books out 3-4 weeks in advance. Our seats are reserved which means if you rock up on the night, even if we have availability, you can only buy standing tickets.`,
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/996622_396120897180133_1456789540_n1-300x200.jpg',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/IMG_8419-300x200.jpg',
     },
     {
       id: 3,
-      question: 'CAN YOU TAKE PHOTOS DURING THE SHOW?',
+      question: 'Are males allowed?',
       answer:
-        'Taking photos is generally permitted however this is up to the performer and you can ask them when they arrive. No video recording is permitted during the show.',
+        'Magic Men is a gay friendly venue. We allow both males and females to come and enjoy our award winning show. Pre-booking essential.',
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/10856650_636824736443080_3206789803127946924_o-300x200.jpg',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/15385379_1207729102653464_8129887684388280850_o-300x200.jpg',
     },
     {
       id: 4,
-      question: 'To make a booking is a deposit required?',
-      answer: `. In order to secure your performer or waiter at your specified date and time a deposit is required.
-
-There are two ways to pay the deposit:
-
-Direct Deposit via internet banking transfer.
-Credit Card payment is also acceptable.
-You will be emailed a receipt for your deposit once funds have cleared, or credit card has been charged. The outstanding amount is to be paid to the performer on the day. Please view our TERMS AND CONDITIONS also.`,
+      question: 'Does our hen or birthday girl get to go up on stage?',
+      answer: `
+ As long as your package or group booking is made in advance and we are aware you are attending. We will bring your hen/guest of honor up on stage once with one of the Magic Men at some stage throughout the show.
+If you are after extra special attention for your group, you can choose to add a private show to your booking for an additional $250 set price (optional extra). The private show will be held in a separate area for your group only with one of the Magic Men of your desire.`,
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/zac-steel-magicmen-3.jpg',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/IMG_8334-1-300x200.jpg',
     },
     {
       id: 5,
-      question: `How do I book a stripper for my girlfriend, hen or birthday girl? `,
-      answer: `Either complete the online booking form, telephone us or email us. We require the following information:
+      question: `How do we book front row seating? Or reserve a booth area? `,
+      answer: `For Silver seating (basic seating) – Seating is always allocated based on your time of booking and your final group size (which you tell us on the Monday of the week fo the event). Generally we will reserve seating for you for the show based on how early you made your deposit, so the earlier you deposit, the better your seating will be on the night.
 
-Which guy/s you are interested in booking
-The date, time and location of the event
-A contact number
-Someone will get back to you as soon as possible to confirm the booking and go through all the details with you. The best way to lock in your favourite guy, is to give us a time frame you’d like him to work with, to ensure he is available for booking.`,
+To get specific seating (booth or front row), you can request an upgrade to your booking once it’s made to either: Platinum VIP seating (Front 3 rows closest to the stage) or Gold priority seating (4th row to middle of the venue).`,
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/male-strippers-4.jpg',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/IMG_8095-1.jpg',
     },
     {
       id: 6,
-      question: `Why should I choose Magic Men rather than another agency?
+      question: `Are you allowed to take photos on the night?
+
 
 `,
-      answer: `
-A. Simple – We’re Magic! We choose only the best performers and the best waiters. All our guys are in peak condition physically, professional and deliver amazing shows! It is an exclusive agency offering shows that you won’t see anywhere else. We have friendly staff that are able to assist you through the whole process from booking to planning. contact us today!`,
+      answer: `No photography or recording of the show whilst the performances are on is permitted, however we do allow you to take photos of each other and photos of yourselves partying with the topless waiters during the intermission. We also have a professional photographer that comes around and takes photos of you girls throughout the night and get uploaded to this site on Monday after the weekend. CLICK HERE to see the photos.`,
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/logo-0011.png',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/IMG_7502.jpg',
     },
     {
       id: 7,
-      question: `What do I need to prepare for my stripper in order for him to do his show?`,
-      answer: `Our stripper comes self equipped with all the necessary gear to rock the house down. However we do ask that you prepare:
+      question: `What kind of finger food do you serve? Do you cater to dietary requirements such as vegetarians or gluten free?`,
+      answer: `The complementary finger food served by topless waiters is basic finger food, not a meal. It’s there to help you soak up the alcohol and we do recommend having a meal before you arrive. The finger food is catered hot and served warm by topless waiters, feel free to grab a bite from the platters as the guys walk around. We do not cater to dietary requirements as the finger food is complementary and not factored into the price of the ticket. There is a vegetarian option but no gluten free options. Below is a sample:
 
-The outstanding money for your Magic Man
-A spare room or bathroom for him to get ready
-Some space for your entertainer to move around and perform his show
-A chair (preferably with no arms) for the special girl to sit on.`,
+Mini Pies Assorted
+Chicken Bites
+Sausage Rolls
+Dim Sims
+Quiche ( V )
+Spinach Rolls ( V )
+Beef Meatballs
+Calamari
+Mini Pizza
+Samosa ( V )
+Risotto Balls ( V )`,
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/10407095_588403431285211_4644337468946077113_n2.jpg',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/IMG_6894.jpg',
     },
     {
       id: 8,
-      question: `What is the minimum length of time we need to book a topless waiter for?
-`,
-      answer: `There is a minimum booking of 2 hours for topless waiters at a base charge of $100 per waiter per hour. For 3 hours or more the price is discounted!`,
+      question: `
+      Hens Special Package- We have a girl who doesn’t drink because she is pregnant, does she still have to pay the same amount?`,
+      answer: ` In regards to the girls who are pregnant, don’t drink or designated drivers. We still offer things in the package such as the finger food, the seating for the show, the topless waiters, soft drinks and after party. The price required is still the same as the other girls in the group, we understand that in every group of hens/girls night there is always one or two girls who simply don’t drink however we also know that in every group there are one or two girls in the group who can drink twice as much as the others, and we wouldn’t charge them double. `,
       image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/male-strippers-4.jpghttps://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/10455563_543456985779856_5321395929309991911_n.jpg',
-    },
-    {
-      id: 9,
-      question: `Can the guys travel outside major cities?
- `,
-      answer: `Yes, Magic Men is a national agency with male strippers in every city. We can send guys out to rural areas also, however a travel fee of $1 per km will be required. Luckily, you only have to pay for 1 way!`,
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/mattstripper51.jpg',
-    },
-    {
-      id: 10,
-      question: `We want a strip show but don’t have a place to do it. Can we hire a function room?
-
- `,
-      answer: ` If you don’t have a place for your function, leave it to us. We have special packages that give you access to a private function room in a beautiful cocktail lounge. That way you only have to show up and be amazed! To see our special packages click here.`,
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/1655829_465439063581649_743869281_n2.jpg',
-    },
-    {
-      id: 11,
-      question: `Do the guys perform at a mixed crowds like an 18th or 21st birthday party with other guys there?
-
- `,
-      answer: `  Yes, our guys cater for every sort of party, function and event. A surcharge may apply to certain events.`,
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/male-strippers-4.jpg',
-    },
-    {
-      id: 12,
-      question: `I’m not sure what else to plan for the night, can you help?
-
- `,
-      answer: ` Definitely. At Magic Men we can help you organise and customise any package suited to your budget and requirements. Whether it’s burlesque, pole lessons, party bus, dinner and show or even a party bus we can create a package easily to ensure your party is talked about for months to come.`,
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/mattstripper51.jpg',
-    },
-    {
-      id: 13,
-      question: `. What happens on the night, how will I know when the guy has arrived?
-
- `,
-      answer: `On the night, your male stripper or waiter will contact you via txt or call to let you know he is close and give you ample time to prepare for his arrival. For bookings within hotels or private function rooms, you may need to meet in reception to give him access to your event.`,
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/mattstripper51.jpg',
-    },
-    {
-      id: 14,
-      question: `Can the guys travel outside major cities?
- `,
-      answer: `Yes, Magic Men is a national agency with male strippers in every city. We can send guys out to rural areas also, however a travel fee of $1 per km will be required. Luckily, you only have to pay for 1 way!`,
-      image:
-        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/mattstripper51.jpg',
+        'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-9e24d4c/www.magicmen.com.au/wp-content/uploads/12105989_768862353239317_847810463750729119_n-2.jpg',
     },
   ];
   return (

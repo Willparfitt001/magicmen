@@ -6,7 +6,7 @@ import GeneralHeroSection from '@/components/home/GeneralHeroSection';
 export default function Page() {
   const faqData = [
     {
-      id: 1,
+      id: '#1',
       question:
         'WILL THE STRIPPER I BOOK FROM THE SITE LOOK THE SAME IN REAL LIFE?',
       answer:
