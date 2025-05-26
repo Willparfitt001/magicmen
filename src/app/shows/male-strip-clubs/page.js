@@ -237,6 +237,33 @@ const carouselImages = [
     isVideo: true,
   },
 ];
+
+const gallary_data = [
+  {
+    link: '/19th-feb-melb',
+    label: '19th Feb Melb',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-5dab2d9/www.magicmen.com.au/wp-content/uploads/DSC09124-320x220.jpg',
+  },
+  {
+    link: '/12th-feb-melb',
+    label: '12th Feb Melb',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-5dab2d9/www.magicmen.com.au/wp-content/uploads/DSC08760-320x220.jpg',
+  },
+  {
+    link: '/5th-feb-melb',
+    label: '5th Feb Melb',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-5dab2d9/www.magicmen.com.au/wp-content/uploads/DSC8990-320x220.jpg',
+  },
+  {
+    link: '#',
+    label: '8th Feb Melb',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-5dab2d9/www.magicmen.com.au/wp-content/uploads/DSC08200-320x220.jpeg',
+  },
+];
 // Define prop types for ticket options
 // ticketOptions should be an array of objects with:
 // - id: unique identifier
@@ -469,7 +496,19 @@ export default function MaleStrippersPage() {
         </div>
 
         <ShowFaq />
-        <div></div>
+        <div className="w-full p-4 md:w-4/5 text-center mx-auto text-white">
+          <CustomH1 text={`Photos from our weekly event`} />
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-4">
+            {gallary_data.map((d, i) => {
+              return (
+                <GallaryList
+                  key={i}
+                  data={d}
+                />
+              );
+            })}
+          </div>
+        </div>
       </main>
       <Footer></Footer>
     </div>
@@ -484,6 +523,23 @@ function ShowFaq() {
         <CustomH1 text={'Frequently Asked Questions'} />
       </span>
       <Faq faqs={faqs_data} />
+    </div>
+  );
+}
+
+export function GallaryList({ data }) {
+  return (
+    <div className="text-white  ">
+      <a
+        className="space-y-4"
+        href={data?.link}>
+        <img
+          className="border border-yellow-500/90 object-cover"
+          alt="hjdd"
+          src={data?.image}
+        />
+        <p className="font-bold uppercase">{data?.label}</p>
+      </a>
     </div>
   );
 }

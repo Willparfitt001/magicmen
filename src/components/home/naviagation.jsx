@@ -264,14 +264,22 @@ const DesktopNavigation = ({ phoneNumber }) => {
       link: '#',
       submenu: [
         { name: 'Our strip club', link: '/shows/male-strip-clubs' },
-        { name: 'Performance Schedule', link: '/schedule' },
-        { name: 'VIP Packages', link: '/vip-packages' },
+        { name: 'buy tickets', link: '#' },
+        { name: 'latest gallary', link: '/latest-gallary' },
       ],
     },
     { name: 'HENS PARTY', link: '/hens-party' },
     { name: 'TOURING SHOW', link: '/touring-show' },
-    { name: 'STORE', link: '/store' },
-    { name: 'FAQ', link: '/faq' },
+    { name: 'STORE', link: '/online-shop' },
+    {
+      name: 'FAQ',
+      link: '/faq',
+      submenu: [
+        { name: 'faq. private shows', link: '/faq' },
+        { name: 'faq. stage show', link: '/faq-male-strip-club' },
+        { name: 'terms and conditions', link: '/terms-conditions' },
+      ],
+    },
     { name: 'CONTACT', link: '/contact' },
   ];
 
