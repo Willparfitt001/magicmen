@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function Enquire() {
+export default function Enquire({ button_label = 'enquire now' }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -146,7 +146,7 @@ export default function Enquire() {
                 type="submit"
                 disabled={status.submitting}
                 className="w-fit inline-flex justify-center uppercase py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-pink-500 disabled:opacity-50">
-                {status.submitting ? 'Submitting...' : 'Enquire Now'}
+                {status.submitting ? 'Submitting...' : button_label}
               </button>
             </div>
           </form>

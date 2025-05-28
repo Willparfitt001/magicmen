@@ -324,7 +324,16 @@ export const MobileNavigation = () => {
         { name: 'terms and conditions', link: '/terms-conditions' },
       ],
     },
-    { name: 'CONTACT', link: '/contact' },
+    {
+      name: 'CONTACT',
+      link: '/contact',
+      submenu: [
+        { name: 'about us', link: '/about-us' },
+        { name: 'make a booking', link: '/payment' },
+        { name: 'employment', link: '/employment' },
+        { name: 'contact us', link: '/contact-us' },
+      ],
+    },
   ];
 
   return (
@@ -531,7 +540,17 @@ export const DesktopNavigation = ({ phoneNumber }) => {
         { name: 'terms and conditions', link: '/terms-conditions' },
       ],
     },
-    { name: 'CONTACT', link: '/contact' },
+    {
+      name: 'CONTACT',
+      link: '/contact-us',
+      submenu: [
+        { name: 'about us', link: '/about-us' },
+        { name: 'make a booking', link: '/payment' },
+        { name: 'employment', link: '/employment' },
+        { name: 'contact us', link: '/contact-us' },
+      ],
+    },
+    ,
   ];
 
   return (

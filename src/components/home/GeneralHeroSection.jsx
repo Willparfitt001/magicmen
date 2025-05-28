@@ -12,7 +12,7 @@
 
 export default function GeneralHeroSection() {
   return (
-    <div className="h-[40vh] sm:h-[45vh] md:h-[50vh] lg:h-[55vh] xl:h-[60vh] relative overflow-hidden">
+    <div className="h-[40vh]  relative overflow-hidden">
       <img
         alt="Hero image"
         className="object-cover object-center w-full h-full min-h-full"

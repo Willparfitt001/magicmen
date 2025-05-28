@@ -56,24 +56,24 @@ export default function Footer() {
           <span className="flex items-center gap-2 font-semibold  text-xs">
             <a
               className="border-r flex items-center  border-yellow-600 px-1"
-              href={'/'}>
+              href={'/privacy-policy'}>
               <b className="text-yellow-600 text-xs mr-1">
                 {' '}
                 ABN 84 314 489 722
               </b>{' '}
               <p> Privacy Policy</p>
             </a>
-            <a
+            {/* <a
               className="border-r border-yellow-600 px-1"
               href={'/'}>
               ROADMAP
-            </a>
-            <a
+            </a> */}
+            {/* <a
               className="border-r border-yellow-600 px-1"
               href={'/'}>
               SITEMAP
-            </a>
-            <a href={'/'}>BLOG</a>
+            </a> */}
+            <a href={'/blog'}>BLOG</a>
           </span>
         </div>
       </div>
