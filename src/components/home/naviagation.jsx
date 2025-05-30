@@ -337,7 +337,7 @@ export const MobileNavigation = () => {
   ];
 
   return (
-    <div className="lg:hidden w-full bg-transparent  backdrop-blur-md font-roboto-mono sticky top-0 z-50 border-b border-slate-700/50">
+    <div className="lg:hidden w-full  font-roboto-mono sticky top-0 z-50 border-b border-slate-700/50">
       {/* Main action buttons */}
       <div className="grid grid-cols-3 gap-3 p-4">
         <button
@@ -377,7 +377,7 @@ export const MobileNavigation = () => {
       {/* Mobile menu overlay and sidebar */}
       {isMobileMenuOpen && (
         <div
-          className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 transition-opacity duration-300"
+          className="fixed inset-0 bg-black/90 backdrop-blur-sm z-50 transition-opacity duration-300"
           onClick={handleOverlayClick}>
           {/* Sidebar menu */}
           <div

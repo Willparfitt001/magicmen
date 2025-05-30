@@ -1,5 +1,5 @@
 import { Geist, Geist_Mono } from 'next/font/google';
-import './globals.css';
+import '../globals.css';
 import {
   DesktopNavigation,
   MobileNavigation,
@@ -22,7 +22,7 @@ export const metadata = {
   description: 'Find amazing men stripper club in your area',
 };
 
-export default function RootLayout({ children }) {
+export default function PaymentLayout({ children }) {
   // Phone number display
   const phoneNumber = '1300 624 426';
 
