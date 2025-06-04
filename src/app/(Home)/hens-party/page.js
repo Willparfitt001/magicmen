@@ -473,12 +473,12 @@ export default function HensPartyPage() {
                 Normally$120
               </p>
               <a
-                href="#"
+                href={`/product/Hens Party`}
                 className="block bg-green-600 rounded-md text-white border border-gray-200 text-center font-bold p-3 hover:text-black">
                 Reserve My Group
               </a>
               <a
-                href="#"
+                href={`#`}
                 className="block bg-transparent text-white rounded-md border border-gray-200 text-center font-bold p-3 hover:bg-white hover:text-black">
                 Get in Touch
               </a>
@@ -556,7 +556,7 @@ Magic Men `}
                   Normally$70
                 </p>
                 <a
-                  href="#"
+                  href={`/product/${'Magic Men'}`}
                   className="block bg-green-600 rounded-md text-white border border-gray-200 text-center font-bold p-3 hover:text-black">
                   Reserve My Group
                 </a>
@@ -640,7 +640,7 @@ Magic Men `}
                   Normally$120
                 </p>
                 <a
-                  href="#"
+                  href={`/product/${`Limo Show`}`}
                   className="block bg-green-600 rounded-md text-white border border-gray-200 text-center font-bold p-3 hover:text-black">
                   Reserve My Group
                 </a>
@@ -1111,7 +1111,7 @@ function ListComponent({ data }) {
             {data?.normal_price}
           </p>
           <a
-            href={data?.reserve_link || '#'}
+            href={`/product/${data?.title}`}
             className="block bg-green-600 rounded-md text-white border border-gray-200 text-center font-bold p-3 hover:text-black">
             Reserve My Group
           </a>

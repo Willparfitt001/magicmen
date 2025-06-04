@@ -148,11 +148,12 @@ export default function ServiceTable() {
                   </p>
                 </td>
                 <td className="p-4 text-center">
-                  <button
+                  <a
+                    href={`/product-show/${service.name}`}
                     onClick={() => handleBookNow(service.id)}
-                    className="bg-purple-600 text-white px-2 py-2 text-xs rounded-full hover:bg-purple-900 transition-colors font-medium">
+                    className="bg-purple-600 text-white px-2 block py-2 text-xs rounded-full hover:bg-purple-900 transition-colors font-medium">
                     BOOK NOW
-                  </button>
+                  </a>
                 </td>
               </tr>
             ))}
@@ -183,11 +184,12 @@ export default function ServiceTable() {
                 <div className="text-gray-400 text-sm">Description</div>
                 <div className="whitespace-pre-line">{service.description}</div>
               </div>
-              <button
+              <a
+                href={`/product-show/${service.name}`}
                 onClick={() => handleBookNow(service.id)}
-                className="w-full bg-purple-500 text-white px-4 py-2 rounded-full hover:bg-pink-600 transition-colors font-medium">
+                className="w-full bg-purple-500 block text-white px-4 py-2 rounded-full hover:bg-pink-600 transition-colors font-medium">
                 BOOK NOW
-              </button>
+              </a>
             </div>
           </div>
         ))}

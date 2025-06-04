@@ -1,11 +1,8 @@
 import { Geist, Geist_Mono } from 'next/font/google';
 import '../globals.css';
-import {
-  DesktopNavigation,
-  MobileNavigation,
-  ScrollingTicker,
-} from '@/components/home/naviagation';
+import PaymentNav from '@/components/payment/naviagtion';
 import { AuthProvider } from '@/contexts/AuthContext';
+import PayementFooter from '@/components/payment/footer';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -46,19 +43,11 @@ export default function PaymentLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className={`bg-black relative`}>
-        {/* Ticker for all screen sizes */}
-        <AuthProvider>
-          <ScrollingTicker messages={tickerMessages} />
+      <body className={`bg-black relative text-white`}>
+        <PaymentNav />
 
-          {/* Mobile Navigation */}
-          <MobileNavigation />
-
-          {/* Desktop Header */}
-          <DesktopNavigation phoneNumber={phoneNumber} />
-
-          {children}
-        </AuthProvider>
+        {children}
+        <PayementFooter />
       </body>
     </html>
   );
