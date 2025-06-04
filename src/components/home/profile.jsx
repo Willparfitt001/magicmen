@@ -661,7 +661,8 @@ const CreatorProfile = ({
                 <img
                   src={activeMedia.src}
                   alt="Main content"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-fit
+                  "
                 />
               )}
 
@@ -830,11 +831,11 @@ const CreatorProfile = ({
 
             <div className="w-full md:w-1/2 space-y-4 my-11 uppercase font-bold ">
               <h1 className="text-yellow-500 text-xl">Shows</h1>
-              <span className="flex items-center py-2  border-t  border-gray-600 justify-between gap-6 ">
+              <span className="flex flex-col  py-2   justify-between gap-6 ">
                 {profile?.shows?.map((s, i) => {
                   return (
                     <div
-                      className="flex justify-between items-center gap-6"
+                      className="flex justify-between border-t  border-gray-600 items-center gap-6"
                       key={i}>
                       <span className="items-center  flex gap-2 uppercase font-bold text-xl">
                         <ImTicket

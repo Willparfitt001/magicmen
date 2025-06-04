@@ -13,7 +13,8 @@ const performerData = [
     name: 'Eli',
     bgColor: 'bg-red-500',
     role: '',
-    image: '/images/Mathew1.jpg',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/wp-content/uploads/430657206_780572270209399_5286855285220364805_n-1-290x420.jpg',
     height: '6`11',
     eyes_color: ` BLUE`,
     hair_color: 'DARK BROWN',
@@ -76,79 +77,602 @@ const performerData = [
     bgColor: 'bg-yellow-500',
     role: '',
     image: '/images/ash.webp',
-    height: '5`11',
+    height: '6`0',
+
+    eyes_color: ` BLUE`,
+    hair_color: 'DARK BROWN',
+    star_sign: 'tarus',
+    shows: ['cop', 'soldier', 'fireman', 'cowboy'],
+    bio: [
+      `Ash Summers of Magic Men is suave and seductive. Ladies are captivated by his every show because of his good looks and hot and steamy performance. Just look at his smooth, sculpted body and gorgeous face. This man can make your party ravishing and phenomenal with his killer fireman routine- who could resist that man in uniform? Let your lady guests swoon over by his sexy dance moves and charming personality. You know you won’t be able to keep your hands off!`,
+      `Ash will take care of your guests whilst putting on the best performance at your party. Guaranteed to make the ladies smile from ear to ear when they watch him, he’s one man you definitely don’t want to miss out on. Let Ash Summers’ seductive presence fill your private venue for all your girls to enjoy. You won’t be disappointed!`,
+    ],
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_jeremy-brown-magicmen-4.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_jeremy-brown-magicmen-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_thumbnail_jeremy-brown-magicmen-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_Ash-Melbourne-stripper.jpeg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_Stripper-Ash-Melbourne.jpeg',
+        premium: false,
+      },
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Standard Combo',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 700,
+      deposit: 310,
+    },
   },
   {
     id: 3,
-    name: 'Will Partrick',
+    name: 'Will Parfitt – Hottest Male Stripper',
     bgColor: 'bg-white',
-    role: 'Hottest Male Performer',
-    image: '/images/Patrick-.jpg',
-    height: '7`',
+    role: 'Spunky, and Drop-dead Gorgeous Boy-next-door',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/wp-content/uploads/Will-exotic-dancer-Melbourne-e1693902739436-290x420.png',
+    height: '6`0',
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-90a4338/www.magicmen.com.au/gallery/melbourne-waiter-nick-b/cache/431105658_1142921813371059_1408044918287041199_n.jpg-nggid0566089-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-stripper-jaxon/thumbs/thumbs_thumbnail_IMG_3655.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-stripper-jaxon/thumbs/thumbs_2ee55e89-951d-4f1d-8bd4-55e50e9a2562.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-90a4338/www.magicmen.com.au/gallery/melbourne-waiter-nick-b/cache/431105658_1142921813371059_1408044918287041199_n.jpg-nggid0566089-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-stripper-jaxon/thumbs/thumbs_Jaxon4.jpg',
+        premium: false,
+      },
+    ],
+    eyes_color: ` Green`,
+    hair_color: ' Brown',
+    star_sign: 'Cancer',
+    shows: [
+      'Soldier',
+      'Policeman',
+      'Fireman',
+      'Doctor',
+      'Grease',
+      '50 Shades',
+      'Top Gun',
+      'Cowboy',
+    ],
+    bio: [
+      `When you look like a very popular person, you might as well cash in! With his uncanny resemblance to Channing Tatum, Will Parfitt is undoubtedly the most sought-after male stripper at MAGIC MEN.`,
+      `He’s got more than just the looks. Will boasts of a repertoire of electrifying dance moves that will leave all the women breathless just by watching. It’s even better when he starts getting up close and personal at your hens party.`,
+      `Will can spice up a birthday or a hens night party with his wide variety of costumes. But, did you know he can also be your very own performer at your next event?`,
+      `To secure this beautiful face of Magic Men, book your event with Will months in advance. He books out fast so send a business enquiry – feel free to fill out a contact form below or call us right away. Catch him also at our MALE STRIP SHOW.`,
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Premium',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 1000,
+      deposit: 500,
+    },
   },
   {
     id: 4,
     name: 'Jaxon',
     bgColor: 'bg-blue-900',
     role: '',
-    image: '/images/jaxon.webp',
-    height: '6`',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/wp-content/uploads/jaxon-magi-cmen-290x420.jpeg',
+    height: '6`0',
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-90a4338/www.magicmen.com.au/gallery/melbourne-waiter-nick-b/cache/431105658_1142921813371059_1408044918287041199_n.jpg-nggid0566089-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-stripper-jaxon/thumbs/thumbs_thumbnail_IMG_3655.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-stripper-jaxon/thumbs/thumbs_2ee55e89-951d-4f1d-8bd4-55e50e9a2562.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-90a4338/www.magicmen.com.au/gallery/melbourne-waiter-nick-b/cache/431105658_1142921813371059_1408044918287041199_n.jpg-nggid0566089-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-stripper-jaxon/thumbs/thumbs_Jaxon4.jpg',
+        premium: false,
+      },
+    ],
+    eyes_color: ` BLUE`,
+    hair_color: ' BLONDE',
+    star_sign: 'leo',
+    shows: ['Sons of Anarchy', 'Cowboy', '50 Shades of grey', 'Magic Mike'],
+    bio: [
+      `If you’re looking for someone sexy to set fire to your soul, then search no further than our man Jaxon. This man is hotter than hell and sure to get any party started. This stud has such a passionate gaze and will melt the heart of your guests. He is dependable with different roles in performances at hen’s parties and events.`,
+      `If you want your party to be the bomb, let Jaxon work his magic and stun your ladies with his energy and charming bravado.`,
+      `This Australian hottie is your go-to at making celebrations special. Send us your enquiry, now!`,
+      ,
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Premium',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 900,
+      deposit: 450,
+    },
   },
   {
     id: 5,
-    name: 'Jake',
+    name: 'Blake',
     bgColor: 'bg-purple-500',
     role: '',
-    image: '/images/Mathew1.jpg',
-    height: '6`1',
+    image:
+      'https://www.magicmen.com.au/gallery/melbourne-stripper-blake/cache/Blake-Feds-3.jpg-nggid0565634-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
+    // height: '6`1',
+    height: '6`0',
+
+    eyes_color: ` Hazel`,
+    hair_color: 'DARK BROWN',
+    star_sign: 'Libra',
+    shows: ['cop', '50 shades', 'fireman', 'cowboy'],
+    bio: [
+      `Does anyone need water? It’s getting hot in here! If you’re looking for a hot hunk to sizzle up your next hens party or any event, then Blake is your guy! When Blake isn’t Maverick on our Magic Men stage, he is one of our most requested private strippers!`,
+      `Oozing with sex appeal, Blake is the perfect mix of hot, cheeky, and gentle. Whilst known for his magical dance moves, Blake’s infectious smile, ripped muscles and charisma will exceed your party’s wildest dreams! Magic Men’s king of intimacy, he always leaves the party aroused and tingling!`,
+      `Always aiming to please, Blake will treat the party to a night like no other! Willing to meet your deepest desires, let him know what you fancy most: Handcuffed by a cop? Rescued by a hunky firefighter? Or something else? Book him today to ensure your party goes off with a bang!`,
+      `Book him for your next private party and be ready for an amazing show only he can perform.`,
+    ],
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-blake/thumbs/thumbs_Blake-Feds-3.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_jeremy-brown-magicmen-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/dave-2/thumbs/thumbs_thumbnail_jeremy-brown-magicmen-1.jpghttps://www.magicmen.com.au/gallery/melbourne-stripper-blake/thumbs/thumbs_Blake-Feds-4.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-blake/thumbs/thumbs_Blake-Feds-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-blake/thumbs/thumbs_blake-clarke-1-min-1.jpg',
+        premium: false,
+      },
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Standard Combo',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 700,
+      deposit: 310,
+    },
   },
   {
     id: 6,
     name: 'Blake',
     bgColor: 'bg-purple-500',
     role: '',
-    image: '/images/Blake.jpg',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/jaxson/thumbs/thumbs_jesse-magicmen-6.jpg',
     height: '6`11',
+    eyes_color: `blue`,
+    hair_color: ' Blonde',
+    star_sign: 'Libra',
+    bio: [
+      `Tradie by day and stripper by night, Jesse Cruze is ready to rock your world. Our bold, blonde and gorgeous Jesse knows how to get the ladies wanting more. If you need a dynamic performer with lots of energy to turn the party up a notch, then you’ve got the right guy. Jesse loves adventures the same as you do, and he knows how well to manage wild hen parties.`,
+      `Do you love to invite a guy to your event who can sing and dance really well? Book him for a boyband sexy routine for a stylish, suave party everyone will talk about.`,
+    ],
+    shows: ['S.W.A.T', 'Sing and Strip', 'Boyband routine', 'Ken (Barbie)'],
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/jaxson/thumbs/thumbs_1_magicmen_3.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/jaxson/thumbs/thumbs_magicmen_1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/jaxson/thumbs/thumbs_Stripper-Jesse-Cruze-.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/jaxson/thumbs/thumbs_Jesse-male-stripper-Magic-Men.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/jaxson/thumbs/thumbs_jesse-magicmen-6.jpg',
+        premium: false,
+      },
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Standard Combo',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 700,
+      deposit: 310,
+    },
   },
   {
     id: 7,
-    name: 'Marco',
+    name: 'Marco B',
     bgColor: 'bg-purple-500',
     role: '',
     image: '/images/marco.jpg',
     height: '5`11',
+    bio: [
+      `Meet Marco, the most gorgeous, seductive man in Melbourne. Be mesmerised by his blue eyes and stunning body. If you’re looking for someone who can make your party creative and the talk of the town, hire him to do his rendition of a prince, cowboy, and more.`,
+      `He is a natural performer and a charismatic guy, perfect for events and parties. If you like a rugged look, he’ll don his cowboy boots to take you for a wild ride, book Marco and your party will be more than you ever imagined.`,
+    ],
+    eyes_color: `brown`,
+    hair_color: ' Brown',
+    star_sign: 'Capricorn',
+    shows: [
+      'Harry Potter',
+      'cowboy',
+      'Fireman',
+      'Doctor',
+      'Grease',
+      'F1 Race Car Driver',
+      'Tradie',
+      'Doctor',
+    ],
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/harleyg/thumbs/thumbs_marco-christmas-santa.jpeg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/harleyg/thumbs/thumbs_marco-male-stripper-melbourne.jpeg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/harleyg/thumbs/thumbs_marco-cowboy-red-shirt.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/harleyg/thumbs/thumbs_marco-magic-men-melbourne.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/harleyg/thumbs/thumbs_marco-male-stripper-melbourne.jpeg',
+        premium: false,
+      },
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Premium',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 1000,
+      deposit: 500,
+    },
   },
   {
     id: 8,
-    name: 'Eli',
+    name: 'Patrick C',
     bgColor: 'bg-purple-500',
     role: '',
-    image: '/images/ELI.jpg',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-waiter-patrick/cache/Patrick-Condidorio-4.jpg-nggid0566102-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
     height: '5`11',
+    eyes_color: `brown`,
+    hair_color: ' Brown',
+    star_sign: 'ARIES',
+    bio: [
+      `Looking for the perfect surprise for your bride-to-be or birthday girl? You can’t go wrong with Patrick. Make sure you have a fan ready- his body and face will make you feverishly hot.`,
+      `He’s guaranteed to make any Hens Night or celebration one to remember with that ripped bod and killer dance moves.`,
+      `The ladies adore his smile and his cheeky charm puts them at ease. This man’s cheeky sense of humour is sure to delight everyone at your party- he’ll make his way into their hearts and won’t want to leave.`,
+      `Don’t miss out on Patrick. As one of our most experienced Magic Men, he knows his stuff and we know he’s always in demand. Book him now!`,
+    ],
+    shows: [
+      'Harry Potter',
+      'cowboy',
+      'Fireman',
+      'Doctor',
+      'Grease',
+      'F1 Race Car Driver',
+      'Tradie',
+      'Doctor',
+    ],
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-waiter-patrick/thumbs/thumbs_Patrick-waiter-melbourne.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-waiter-patrick/thumbs/thumbs_Patrick-waiter-topless-melbourne.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-waiter-patrick/thumbs/thumbs_Patrick-Condidorio-3.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-waiter-patrick/thumbs/thumbs_Patrick-Condidorio-2.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/melbourne-waiter-patrick/thumbs/thumbs_Patrick-Condidorio-1.jpg',
+        premium: false,
+      },
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Premium',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 1000,
+      deposit: 500,
+    },
   },
   {
     id: 9,
     name: 'Francesco',
     bgColor: 'bg-purple-500',
-    role: '',
+    role: `
+Fun, tanned and muscly`,
     image: '/images/Francesco.jpg',
-    height: '5`11',
+    height: '6`0',
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-francesco/thumbs/thumbs_thumbnail_Francesco-Antonio-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-francesco/thumbs/thumbs_thumbnail_Francesco-Antonio-4.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-francesco/thumbs/thumbs_thumbnail_Francesco-Antonio-2.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-francesco/thumbs/thumbs_thumbnail_Francesco-Antonio-5.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://www.magicmen.com.au/gallery/melbourne-stripper-francesco/thumbs/thumbs_thumbnail_Francesco-Antonio-6.jpg',
+        premium: false,
+      },
+    ],
+    eyes_color: ` Green`,
+    hair_color: ' Brown',
+    star_sign: 'Cancer',
+    shows: [
+      'Soldier',
+      'Policeman',
+      'Fireman',
+      'Doctor',
+      'Grease',
+      '50 Shades',
+      'Top Gun',
+      'Cowboy',
+    ],
+    bio: [
+      `Strong and mysterious Francesco of Magic Men is sure to get every single heart pounding as he enters the room. With ripped muscles and stunning features, ladies are sure to get lost in his eyes as he spends tender loving time entertaining them at every show.`,
+      `His mysterious personality is well-loved by ladies, especially as you’re never quite sure what his next surprise will be. He is quietly confident with his gorgeous looks and dancing skills – an irresistible combination.`,
+      `If you’re planning a chill party with a sexy dance for a twist – Francesco got you covered. Leave the entertainment to him and be sure to have a seductive and flirty night. Book him now!`,
+      // `To secure this beautiful face of Magic Men, book your event with Will months in advance. He books out fast so send a business enquiry – feel free to fill out a contact form below or call us right away. Catch him also at our MALE STRIP SHOW.`,
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Premium',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 1000,
+      deposit: 500,
+    },
   },
   {
     id: 10,
-    name: 'Dave',
+    name: 'Raf',
     bgColor: 'bg-purple-500',
     role: '',
-    image: '/images/Dave-2.jpg',
-    height: '5`11',
+    image:
+      'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/sebastian/cache/Raf1-1.jpg-nggid0566642-ngg0dyn-0x0x100-00f0w010c010r110f110r010t010.jpg',
+    height: '5`9',
+    mediaPreview: [
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/sebastian/thumbs/thumbs_Charaf-2.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/sebastian/thumbs/thumbs_Raf1-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/sebastian/thumbs/thumbs_Raf2-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/sebastian/thumbs/thumbs_Raf3-1.jpg',
+        premium: false,
+      },
+      {
+        type: 'image',
+        src: 'https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-0baa8f7/www.magicmen.com.au/gallery/sebastian/thumbs/thumbs_Raf5-1.jpg',
+        premium: false,
+      },
+    ],
+    eyes_color: `black`,
+    hair_color: ' Black',
+    star_sign: 'aries',
+    shows: ['Policeman'],
+    bio: [
+      `Get ready to be hanging on to the edge of your seat: Magic Men is bringing you Australia’s finest in Raf to send the ladies’ pulses racing into overdrive.`,
+      `With his fiery passion and strong arms, this charming stud knows just how to entertain and give a performance like no other. `,
+      `If you’re looking for someone who can confidently take charge, can sweep you off your feet, and can bring a night you’ll forever remember – your search ends here.`,
+      `Book Raf now and avoid missing out on this sexy, charismatic hunk!.`,
+    ],
+    services: {
+      id: 1,
+      title: '1 Stripper',
+      subtitle: 'Premium',
+      performers: '3 Total',
+      image: `https://payments.magicmen.com.au/wp-content/uploads/2020/07/Magic19Dec161-450x300.jpg`,
+
+      icon: '👨‍🍳',
+      combo: 'STANDARD COMBO',
+      description: 'Great for groups medium-sized groups up to 10-30 people',
+      showDuration: '15-20 min show',
+      waiterService:
+        '2 hr premium waiter service for food/drinks, photos, game hosting and setting up',
+      price: 1000,
+      deposit: 500,
+    },
   },
 ];
 const stripper_data = [];
 export default function StripperPage() {
   const performerName = 'Eli';
+  const params = useParams();
+  const name = params.stripper.includes('%')
+    ? params.stripper.split('%')[0]
+    : params.stripper;
 
+  console.log(params, name);
   const matchedPerformer = performerData.find(
-    (performer) => performer.name.toLowerCase() === performerName.toLowerCase()
+    (performer) =>
+      performer.name.split(' ')[0].toLowerCase() === name.toLowerCase()
   );
   const handleSubscribe = (subscriptionData) => {
     console.log('Subscribe clicked:', subscriptionData);
@@ -168,7 +692,6 @@ export default function StripperPage() {
   };
   console.log(matchedPerformer);
 
-  const params = useParams();
   return (
     <div>
       <MagicMenLayout height="30vh">
