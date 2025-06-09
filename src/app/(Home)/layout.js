@@ -6,6 +6,7 @@ import {
   ScrollingTicker,
 } from '@/components/home/naviagation';
 import { AuthProvider } from '@/contexts/AuthContext';
+import NavigateToTop from '@/components/global/top';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -24,7 +25,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   // Phone number display
-  const phoneNumber = '1300 624 426';
+  const phoneNumber = process.env.NEXT_PUBLIC_PHONE;
 
   // Ticker messages
   const tickerMessages = ['HEN get FREE ENTRY for group bookings *T&Cs apply'];
@@ -46,7 +47,9 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className={`bg-black relative`}>
+      <body
+        id="hometop"
+        className={`bg-black relative`}>
         {/* Ticker for all screen sizes */}
         <AuthProvider>
           <ScrollingTicker messages={tickerMessages} />
@@ -56,6 +59,7 @@ export default function RootLayout({ children }) {
 
           {/* Desktop Header */}
           <DesktopNavigation phoneNumber={phoneNumber} />
+          <NavigateToTop id={'hometop'} />
 
           {children}
         </AuthProvider>

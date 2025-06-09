@@ -122,6 +122,7 @@ const UpcomingShows = () => {
       city: 'MELBOURNE',
       venue: 'LOVE MACHINE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-takeover-adelaide-tickets-1083856376599?aff=oddtdtcreator',
     },
     {
       id: 2,
@@ -131,6 +132,7 @@ const UpcomingShows = () => {
       city: 'SYDNEY',
       venue: 'SHARK HOTEL',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-take-over-toowoomba-qld-tickets-1268373261569?aff=oddtdtcreator',
     },
     {
       id: 3,
@@ -140,6 +142,8 @@ const UpcomingShows = () => {
       city: 'BRISBANE',
       venue: 'WONDERLAND',
       location: 'Queensland',
+
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319808587?aff=oddtdtcreator',
     },
     {
       id: 4,
@@ -149,8 +153,10 @@ const UpcomingShows = () => {
       city: 'GOLD COAST',
       venue: 'PLATINUM NIGHTCLUB',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-sydney-shark-hotel-sydney-cbd-tickets-965591629557?aff=oddtdtcreator',
     },
     {
+      link: 'https://www.eventbrite.com.au/e/magic-men-gold-coast-surfers-paradise-tickets-972005894797?aff=oddtdtcreator',
       id: 5,
       date: '4',
       month: 'JUNE',
@@ -167,6 +173,7 @@ const UpcomingShows = () => {
       city: 'YEPPOON',
       venue: 'THE CLUBHOUSE YEPPOON',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-takeover-newcastle-tickets-1083873929099?aff=oddtdtcreator',
     },
     {
       id: 7,
@@ -176,6 +183,7 @@ const UpcomingShows = () => {
       city: 'MACKAY',
       venue: "SOUTH LEAGUE'S CLUB",
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 8,
@@ -185,6 +193,7 @@ const UpcomingShows = () => {
       city: 'MELBOURNE',
       venue: 'LOVE MACHINE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 9,
@@ -194,6 +203,7 @@ const UpcomingShows = () => {
       city: 'SYDNEY',
       venue: 'SHARK HOTEL',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 10,
@@ -203,6 +213,7 @@ const UpcomingShows = () => {
       city: 'BRISBANE',
       venue: 'WONDERLAND',
       location: 'Queensland',
+      link: `https://www.eventbrite.com.au/e/magic-men-takeover-armidale-nsw-tickets-1100701019379?aff=oddtdtcreator`,
     },
     {
       id: 11,
@@ -212,6 +223,7 @@ const UpcomingShows = () => {
       city: 'GOLD COAST',
       venue: 'PLATINUM NIGHTCLUB',
       location: 'Queensland',
+      link: `https://www.eventbrite.com.au/e/magic-men-takeover-armidale-nsw-tickets-1100701019379?aff=oddtdtcreator`,
     },
     {
       id: 12,
@@ -221,6 +233,7 @@ const UpcomingShows = () => {
       city: 'ADELAIDE',
       venue: 'BRIDGEWAY HOTEL',
       location: 'South Australia',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 13,
@@ -230,6 +243,7 @@ const UpcomingShows = () => {
       city: 'TOOWOOMBA',
       venue: 'THE POWER HOUSE',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 14,
@@ -239,6 +253,7 @@ const UpcomingShows = () => {
       city: 'MELBOURNE',
       venue: 'LOVE MACHINE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 15,
@@ -248,6 +263,7 @@ const UpcomingShows = () => {
       city: 'SYDNEY',
       venue: 'SHARK HOTEL',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 16,
@@ -257,6 +273,7 @@ const UpcomingShows = () => {
       city: 'BRISBANE',
       venue: 'WONDERLAND',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 17,
@@ -266,6 +283,7 @@ const UpcomingShows = () => {
       city: 'GOLD COAST',
       venue: 'PLATINUM NIGHTCLUB',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 18,
@@ -275,6 +293,7 @@ const UpcomingShows = () => {
       city: 'CABOOLTURE',
       venue: 'SUNDOWNER MOTEL',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 19,
@@ -284,6 +303,7 @@ const UpcomingShows = () => {
       city: 'TAMWORTH',
       venue: 'CAPITOL THEATRE TAMWORTH',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 20,
@@ -293,6 +313,7 @@ const UpcomingShows = () => {
       city: 'NEWCASTLE',
       venue: 'NEX',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 21,
@@ -302,6 +323,7 @@ const UpcomingShows = () => {
       city: 'MELBOURNE',
       venue: 'LOVE MACHINE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 22,
@@ -311,6 +333,7 @@ const UpcomingShows = () => {
       city: 'SYDNEY',
       venue: 'SHARK HOTEL',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 23,
@@ -320,6 +343,7 @@ const UpcomingShows = () => {
       city: 'BRISBANE',
       venue: 'WONDERLAND',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 24,
@@ -329,6 +353,7 @@ const UpcomingShows = () => {
       city: 'GOLD COAST',
       venue: 'PLATINUM NIGHTCLUB',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 25,
@@ -338,6 +363,7 @@ const UpcomingShows = () => {
       city: 'BUNBURY',
       venue: 'PRINCE OF WALES HOTEL',
       location: 'Western Australia',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 26,
@@ -347,6 +373,7 @@ const UpcomingShows = () => {
       city: 'ROCKINGHAM',
       venue: 'ENCORE ROCKINGHAM',
       location: 'Western Australia',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 27,
@@ -356,6 +383,7 @@ const UpcomingShows = () => {
       city: 'COBRAM',
       venue: 'GASWORKS BAR & LOUNGE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 28,
@@ -365,6 +393,7 @@ const UpcomingShows = () => {
       city: 'ALBURY',
       venue: 'SSA CLUB ALBURY',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 29,
@@ -374,6 +403,7 @@ const UpcomingShows = () => {
       city: 'PERTH',
       venue: 'METRO CITY CONCERT CLUB',
       location: 'Western Australia',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 30,
@@ -383,6 +413,7 @@ const UpcomingShows = () => {
       city: 'MELBOURNE',
       venue: 'LOVE MACHINE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 31,
@@ -392,6 +423,7 @@ const UpcomingShows = () => {
       city: 'SYDNEY',
       venue: 'SHARK HOTEL',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 32,
@@ -401,6 +433,7 @@ const UpcomingShows = () => {
       city: 'BRISBANE',
       venue: 'WONDERLAND',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 33,
@@ -410,6 +443,7 @@ const UpcomingShows = () => {
       city: 'FREMANTLE',
       venue: 'METROPOLIS FREMANTLE',
       location: 'Western Australia',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 34,
@@ -419,6 +453,7 @@ const UpcomingShows = () => {
       city: 'GOLD COAST',
       venue: 'PLATINUM NIGHTCLUB',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 35,
@@ -428,6 +463,7 @@ const UpcomingShows = () => {
       city: 'BROOME',
       venue: 'DIVERS TAVERN',
       location: 'Western Australia',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 36,
@@ -437,6 +473,7 @@ const UpcomingShows = () => {
       city: 'MORNINGSIDE',
       venue: 'COLMSLIE HOTEL',
       location: 'Queensland',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 37,
@@ -446,6 +483,7 @@ const UpcomingShows = () => {
       city: 'ARMIDALE',
       venue: 'ARMIDALE EX SERVICES',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 38,
@@ -455,6 +493,7 @@ const UpcomingShows = () => {
       city: 'CASINO',
       venue: 'CASINO RSM CLUB',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 39,
@@ -464,6 +503,7 @@ const UpcomingShows = () => {
       city: 'DARWIN',
       venue: 'MINDIL BEACH CASINO RESORT',
       location: 'Northern Territory',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 40,
@@ -473,6 +513,7 @@ const UpcomingShows = () => {
       city: 'MELBOURNE',
       venue: 'LOVE MACHINE',
       location: 'Victoria',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
     {
       id: 41,
@@ -482,6 +523,7 @@ const UpcomingShows = () => {
       city: 'SYDNEY',
       venue: 'SHARK HOTEL',
       location: 'New South Wales',
+      link: 'https://www.eventbrite.com.au/e/magic-men-melbourne-love-machine-tickets-967319828647?aff=oddtdtcreator',
     },
   ];
 
@@ -591,9 +633,11 @@ const UpcomingShows = () => {
 
                   {/* Tickets */}
                   <div className="px-6 py-6 flex items-center justify-center">
-                    <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg text-sm uppercase tracking-wide">
+                    <a
+                      href={show?.link}
+                      className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-lg text-sm uppercase tracking-wide">
                       Buy Tickets
-                    </button>
+                    </a>
                   </div>
                 </div>
               ))

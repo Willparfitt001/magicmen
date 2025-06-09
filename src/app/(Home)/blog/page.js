@@ -6,31 +6,31 @@ import MagicMenLayout from '@/components/home/naviagation';
 
 const news_data = [
   {
-    link: '/',
+    link: '#',
     image: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6180e18/www.magicmen.com.au/wp-content/uploads/Magic-Men-Hens-Party-Ideas-Gold-Coast-320x220.jpeg`,
     title: `TOP 10 HENS NIGHT IDEAS IN GOLD COAST`,
     desc: `Magic News TOP 10 HENS NIGHT IDEAS IN GOLD COAST The Gold Coast is one of the best places in Australia for a hens night party. There are all sorts of activities that you can do to celebrate a friend's last night as a single lady. To guide you along the way, we've compiled a […]`,
   },
   {
-    link: '/',
+    link: '#',
     image: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6180e18/www.magicmen.com.au/wp-content/uploads/bucks-hen-party-320x220.jpg`,
     title: `Covid Policy`,
     desc: `Magic Men is back! Let's bring the magic back to your parties. Great news ladies and gents! We are opening our business for Melbourne and Sydney. We are beyond grateful for your continued support and loyalty to Magic Men and our services. We could not have done it without you. With this, we are delighted to […]`,
   },
   {
-    link: '/',
+    link: '#',
     image: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6180e18/www.magicmen.com.au/wp-content/uploads/bucks-hen-party-320x220.jpg`,
     title: `Hens Party Sydney`,
     desc: `Planning a hens night in Sydney? You've come to the right place! We have all the information you need to plan your bestie's hen party. We've put together 50 hens party ideas for the big night, ranging from a chill night out to the raunchiest of strip shows. And if that's not enough, we've also […]`,
   },
   {
-    link: '/',
+    link: '#',
     image: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6180e18/www.magicmen.com.au/wp-content/uploads/Magic-Men-Hens-Party-Ideas-Gold-Coast-320x220.jpeg`,
     title: `Top 10 Hens Night Ideas in Gold Coast`,
     desc: `Hens party Gold coast Top 10 Hens Night Party Ideas in Gold Coast The Gold Coast is one of the best places in Australia for a hens night party. There are all sorts of activities that you can do to celebrate a friend's last night as a single lady. To guide you along the way, […]`,
   },
   {
-    link: '/',
+    link: '#',
     image: `https://cdn-blhad.nitrocdn.com/YjoyyGWRYAkynLQQCrAzLiCDRqOcqPAa/assets/images/optimized/rev-6180e18/www.magicmen.com.au/wp-content/uploads/Magic-Men-Hens-Party-Ideas-Brisbane-320x220.jpeg`,
     title: `Top 50 Best Hens Party Ideas in Brisbane`,
     desc: `Hens Party Brisbane Hens Nights are meant to be fun and exciting. It's a milestone in a woman's life. If you're organizing a Hens Night for a friend, you have an unspoken duty to make the party a truly unforgettable one. Fortunately for you, we have compiled 50 of the best ideas for a hens […]`,

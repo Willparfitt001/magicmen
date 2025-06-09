@@ -24,11 +24,12 @@ export default function PaymentNav() {
           />
         </div>
         <a
-          href="tel:1300624426"
+          href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
           className="text-right hidden md:block">
           <p className="text-yellow-500 text-sm">For phone bookings</p>
           <p className="text-white font-bold text-base">
-            <span className="text-green-500">Call us at</span> 1300 624 426
+            <span className="text-green-500">Call us at</span>{' '}
+            {process.env.NEXT_PUBLIC_PHONE}
           </p>
         </a>
         <a

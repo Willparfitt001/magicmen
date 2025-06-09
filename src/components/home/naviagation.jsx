@@ -51,13 +51,13 @@ const LocationDropdown = ({ isDesktop }) => {
   const locations = [
     { name: 'LOCATIONS', link: '/' },
 
-    { name: 'SYDNEY', link: '/sydney' },
-    { name: 'MELBOURNE', link: '/melbourne' },
-    { name: 'BRISBANE', link: '/brisbane' },
-    { name: 'GOLD COAST', link: '/gold-coast' },
-    { name: 'PERTH', link: '/perth' },
-    { name: 'ADELAIDE', link: '/adelaide' },
-    { name: 'HOBART', link: '/hobart' },
+    { name: 'SYDNEY', link: '#' },
+    { name: 'MELBOURNE', link: '#' },
+    { name: 'BRISBANE', link: '#' },
+    { name: 'GOLD COAST', link: '#' },
+    { name: 'PERTH', link: '#' },
+    { name: 'ADELAIDE', link: '#' },
+    { name: 'HOBART', link: '#' },
   ];
 
   return (

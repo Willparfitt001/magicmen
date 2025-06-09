@@ -3,6 +3,7 @@ import '../globals.css';
 import PaymentNav from '@/components/payment/naviagtion';
 import { AuthProvider } from '@/contexts/AuthContext';
 import PayementFooter from '@/components/payment/footer';
+import NavigateToTop from '@/components/global/top';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -43,7 +44,10 @@ export default function PaymentLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className={`bg-black relative text-white`}>
+      <body
+        id="paymenttop"
+        className={`bg-black relative text-white relative`}>
+        <NavigateToTop id={'paymenttop'} />
         <PaymentNav />
 
         {children}
