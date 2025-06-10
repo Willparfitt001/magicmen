@@ -350,21 +350,25 @@ export const MobileNavigation = () => {
           <span className="text-xs tracking-wide">MENU</span>
         </button>
 
-        <button className="group relative py-2 bg-green-500 hover:to-green-700 text-slate-900 rounded-xl font-bold flex flex-col items-center justify-center transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg">
+        <a
+          href={'/contact-us'}
+          className="group relative  py-2 bg-green-500 hover:to-green-700 text-slate-900 rounded-xl font-bold flex flex-col items-center justify-center transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg">
           <Calendar
             size={20}
             className="mb-1 group-hover:scale-110 transition-transform duration-300"
           />
           <span className="text-xs tracking-wide">ENQUIRE</span>
-        </button>
+        </a>
 
-        <button className="group relative py-2 bg-green-500 hover:to-green-700 text-slate-900 rounded-xl font-bold flex flex-col items-center justify-center transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg">
+        <a
+          href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}
+          className=" group relative py-2 bg-green-500 hover:to-green-700 text-slate-900 rounded-xl font-bold flex flex-col items-center justify-center transition-all duration-200 transform hover:scale-105 active:scale-95 shadow-lg">
           <Phone
             size={20}
             className="mb-1 group-hover:rotate-12 transition-transform duration-300"
           />
           <span className="text-xs tracking-wide">CALL</span>
-        </button>
+        </a>
       </div>
 
       {/* Location dropdown */}
@@ -614,9 +618,11 @@ export const DesktopNavigation = ({ phoneNumber }) => {
               <span className="text-white font-semibold">{phoneNumber}</span>
             </div>
 
-            <button className="bg-green-500 text-black text-sm font-semibold px-2 py-2 rounded-full hover:bg-green-600 transition-colors">
+            <a
+              href="/contact-us"
+              className="bg-green-500 text-black text-sm font-semibold px-2 py-2 rounded-full hover:bg-green-600 transition-colors">
               ENQUIRE NOW
-            </button>
+            </a>
           </div>
         </div>
       </div>

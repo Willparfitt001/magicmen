@@ -51,7 +51,7 @@ export default function EmploymentPage() {
             Send us date and what you’d like to plan and we’ll get back to you
             with a INSTANT QUOTE.
           </p>
-          <div className="-mt-4">
+          <div className="-mt-4 mx-auto flex justify-center items-center w-full">
             {' '}
             <ContactFormExample />
           </div>
