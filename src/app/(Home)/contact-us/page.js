@@ -31,8 +31,8 @@ export default function ContactUsPage() {
           </h1>
           <Enquire button_label="contact us" />
         </div>
-        <p>Location: 228A MALVERN RD PRAHRAN</p>
-        <p>Office: 272 CITY RD SOUTHBANK VIC 3006</p>
+        <p>Location: {process.env.NEXT_PUBLIC_LOCATION} </p>
+        {/* <p>Office: 272 CITY RD SOUTHBANK VIC 3006</p> */}
 
         <div className="p-2 my-11">
           <h1 className="uppercase font-bold text-xl md:text-2xl">

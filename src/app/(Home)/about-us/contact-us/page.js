@@ -16,17 +16,13 @@ export default function ContactUsPage() {
           Call today for the best male strippers & waiters in Australia!
         </p>
         <span className="text-xl w-full md:w-4/5 flex-wrap gap-4 mx-auto my-11 flex items-center p-2 justify-between font-bold">
-          <a
-            href={`tel:
-1300 624 426`}>
-            1300 624 426
+          <a href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}>
+            {process.env.NEXT_PUBLIC_PHONE}
           </a>
-          <a
-            href={`tel:
-1300 624 426`}>
-            1300 624 426
+          <a href={`tel:${process.env.NEXT_PUBLIC_PHONE}`}>
+            {process.env.NEXT_PUBLIC_PHONE}
           </a>{' '}
-          <a href={`mailto:info@magicmen.com.au`}>info@magicmen.com.au</a>
+          <a href={`mailto:info@magicmen.com.au`}>info@magicmen-au.com</a>
         </span>
 
         <div>
@@ -35,8 +31,8 @@ export default function ContactUsPage() {
           </h1>
           <Enquire button_label="contact us" />
         </div>
-        <p>Location: 228A MALVERN RD PRAHRAN</p>
-        <p>Office: 272 CITY RD SOUTHBANK VIC 3006</p>
+        <p>Location: {process.env.NEXT_PUBLIC_LOCTION}</p>
+        {/* <p>Office: 272 CITY RD SOUTHBANK VIC 3006</p> */}
 
         <div className="p-2 my-11">
           <h1 className="uppercase font-bold text-xl md:text-2xl">

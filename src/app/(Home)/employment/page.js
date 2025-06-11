@@ -56,8 +56,8 @@ export default function EmploymentPage() {
             <ContactFormExample />
           </div>
         </div>
-        <p>Location: 228A MALVERN RD PRAHRAN</p>
-        <p>Office: 272 CITY RD SOUTHBANK VIC 3006</p>
+        <p>Location: {process.env.NEXT_PUBLIC_LOCATION}</p>
+        {/* <p>Office: 272 CITY RD SOUTHBANK VIC 3006</p> */}
       </main>
       <Footer />
     </div>
