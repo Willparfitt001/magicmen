@@ -23,7 +23,7 @@ export const ScrollingTicker = ({ messages }) => {
   React.useEffect(() => {
     const scrollSpeed = 5;
     const timer = setInterval(() => {
-      setPosition((prev) => (prev - 1) % -300);
+      setPosition((prev) => (prev - 1) % 300);
     }, scrollSpeed);
 
     return () => clearInterval(timer);
@@ -32,7 +32,7 @@ export const ScrollingTicker = ({ messages }) => {
   return (
     <div className="bg-pink-200 text-black py-1 overflow-hidden font-roboto-mono font-bold text-xl w-full">
       <div
-        className="whitespace-nowrap  font-medium"
+        className="whitespace-nowrap  font-bold"
         style={{
           transform: `translateX(${position}px)`,
           display: 'inline-block',
