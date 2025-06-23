@@ -700,9 +700,12 @@ const UpcomingShows = () => {
                   <span className="text-gray-300 font-medium uppercase tracking-wide text-sm">
                     Tickets
                   </span>
-                  <button className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:scale-105 text-sm uppercase tracking-wide">
+
+                  <a
+                    href={show?.link}
+                    className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 hover:scale-105 text-sm uppercase tracking-wide">
                     Buy Tickets
-                  </button>
+                  </a>
                 </div>
               </div>
             ))
